@@ -1,3 +1,8 @@
+<link rel="stylesheet" href="style.css">
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="about.html" href="#about">About</a>
+</div>
 ---
 title: LAND - The Flight Simulator
 ---
@@ -12,7 +17,6 @@ As a crucial operation in navigating an airplane, we specialized our product on 
 - **Description**: Realistic flight physics, 20 aircraft, global map, weather engine, VR support.
 - **Download**: Instant access after purchase.
 
-<link rel="stylesheet" href="style.css">
 <div class="container">
   <img src="Full_Flight_Simulator_(5573438825).jpeg" alt="Flight simulator cockpit" width="600" height="400">
   <form onsubmit="buy(event)">
