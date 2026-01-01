@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LAND - The Flight Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <h1>LAND - The Flight Simulator</h1>
+  <p>LAND is a flight simulator for practicing landing an airplane.</p>
+  <p>As a crucial operation in navigating an airplane, we specialized our product on giving a real life simulation of how to land an airplane safely. With the expertise of multiple experienced pilots and the collaboration of numerous flight schools, LAND is the perfect learning resource for our pilots of tomorrow.</p>
+
+  <h1>Buy Once, Play Forever</h1>
+
+  <h3>Flight Simulator LAND</h3>
+  <ul>
+    <li><strong>Price</strong>: $49.99 (one-time payment)</li>
+    <li><strong>Description</strong>: Realistic flight physics, 20 aircraft, global map, weather engine, VR support.</li>
+    <li><strong>Download</strong>: Instant access after purchase.</li>
+  </ul>
+
+  <div class="container">
+    <img src="Full_Flight_Simulator_(5573438825).jpeg" alt="Flight simulator cockpit" width="600" height="400" />
+    <form onsubmit="buy(event)">
+      <button type="submit" class="btn">Buy Now</button>
+    </form>
+  </div>
+
+  <div id="confirmation" style="display: none; color: green;">
+    ✅ Thank you! Download will start shortly.
+  </div>
+
+  <script>
+    function buy(e) {
+      e.preventDefault();
+      document.getElementById("confirmation").style.display = "block";
+      setTimeout(() => {
+        alert("Download started: FlightSim_Pro_Setup.exe");
+      }, 1000);
+    }
+  </script>
+</body>
+</html>   
