@@ -12,9 +12,14 @@ As a crucial operation in navigating an airplane, we specialized our product on 
 - **Description**: Realistic flight physics, 20 aircraft, global map, weather engine, VR support.
 - **Download**: Instant access after purchase.
 
-<form onsubmit="buy(event)">
-  <button type="submit">Buy Now</button>
-</form>
+<link rel="stylesheet" href="style.css">
+<div class="container">
+  <img src="Full_Flight_Simulator_(5573438825).jpeg" alt="Flight simulator cockpit" width="600" height="400">
+  <form onsubmit="buy(event)">
+    <button type="submit" class="btn">Buy Now</button>
+  </form>
+</div>
+
 
 <div id="confirmation" style="display: none; color: green;">
   ✅ Thank you! Download will start shortly.
